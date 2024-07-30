@@ -1,0 +1,113 @@
+body {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.product-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.product-row select {
+  margin-right: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 128, 0, 0.521);
+  border-radius: 4px;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.App {
+  margin-top: 50px;
+}
+
+.App h1 {
+  text-align: center;
+  color: #4a80bb;
+  margin: 0;
+}
+.Hline {
+  width: 50%;
+  color: #4a80bb;
+  border: 1px solid #4a80bb;
+}
+
+.product-select-table,
+.orders-table {
+  margin: 0 auto;
+  color: #333;
+  background: white;
+  /* border: 1px solid; */
+  font-size: 12pt;
+  border-collapse: collapse;
+  /* font-size: 0.9em; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  /* border-radius: 14px; */
+}
+
+.orders-table {
+  width: 100%;
+}
+
+.order-list-head {
+  text-align: center;
+  margin-top: 30px;
+}
+
+td {
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+  text-align: left;
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+thead {
+  font-weight: 600;
+}
+
+.add-button,
+.show-order-btn,
+.order-speak-btn {
+  background-color: #4a80bb;
+  color: #fff;
+  margin-top: 20px;
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+
+.order-speak-btn {
+    width: 25%;
+}
+
+
+select {
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.order-list-continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
